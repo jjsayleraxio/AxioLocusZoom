@@ -16,12 +16,13 @@ library(devtools)
 ```
 3. Install using `install_github()` command
 ```R
-install_github("jjsayleraxio/AxioLocusZoom")
+devtools::install_github("jjsayleraxio/AxioLocusZoom@v0.1.0-alpha")
 ```
 
-The master branch contains the latest release. Check out the [releases](https://github.com/jjsayleraxio/AxioLocusZoom/releases) page to view a specific release.
+Change @v0.1.0-alpha to whatever tagged release you want to use, or leave it off to pull the most current version. Check out the [releases](https://github.com/jjsayleraxio/AxioLocusZoom/releases) for more info.
 
 <hr>
 
 ###### Source: The Center for Statistical Genetics at the University of Michigan School of Public Health, [locuszoom](https://statgen.github.io/locuszoom/)
 ###### Source: Karl Broman, [Putting your R package on GitHub](http://kbroman.org/pkg_primer/pages/github.html)
+###### Source: James Hester, [devtools install_github() documentation](https://www.rdocumentation.org/packages/devtools/versions/1.13.6/topics/install_github)
