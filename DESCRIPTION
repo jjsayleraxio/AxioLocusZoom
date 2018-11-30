@@ -1,6 +1,6 @@
 Package: AxioLocusZoom
 Title: HTMLWidget of the locuszoom.js library
-Version: 0.1
+Version: 1.0
 Authors@R: person("Joseph", "Sayler", email = "josephs@axioresearch.com", role = c("aut", "cre"))
 Description: R wrapper (using htmlwidget) of the locuszoom.js library
 Depends: R (>= 3.4.3)
