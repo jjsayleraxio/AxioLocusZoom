@@ -19,6 +19,8 @@ library(devtools)
 install_github("jjsayleraxio/AxioLocusZoom")
 ```
 
+The master branch contains the latest release. Check out the [releases](https://github.com/jjsayleraxio/AxioLocusZoom/releases) page to view a specific release.
+
 <hr>
 
 ###### Source: The Center for Statistical Genetics at the University of Michigan School of Public Health, [locuszoom](https://statgen.github.io/locuszoom/)
