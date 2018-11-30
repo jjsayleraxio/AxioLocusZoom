@@ -1,5 +1,10 @@
+<img align="right" src="https://github.com/jjsayleraxio/AxioShiny/blob/master/images/axio-logo.png">
+<br><br>
+
 # AxioLocusZoom
 R ShinyApp HTMLWidget using the locuszoom.js library 
+
+### How To Use
 
 1. Install devtools
 ```R
