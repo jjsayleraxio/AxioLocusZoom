@@ -1,6 +1,6 @@
-#' <Add Title>
+#' LocusZoomPlot
 #'
-#' <Add Description>
+#' R wrapper for the locuszoom.js. This file generates a standard, pre-defined plot from the locuszoom.js library
 #'
 #' @import htmlwidgets
 #'
