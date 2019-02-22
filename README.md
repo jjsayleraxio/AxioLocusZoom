@@ -20,15 +20,25 @@ devtools::install_github("jjsayleraxio/AxioLocusZoom@v0.1.1-alpha")
 ```
 
 4. Example of how to run code:
+ * in ui: 
+ ```R
+ ...
+   mainPanel(
+     LocusZoomPlotOutput("locuszoom")
+   )
+ ```
+ * in server:
 ```R
-LocusZoomPlot(list(assoc_url = [data source URL],
-                   assoc_analysis = [name of a database file],
-                   assoc_id_field = [name of id_field],
-                   gene_url = [data source URL],
-                   gene_source = [value of gene_source],
-                   chr = [chromosome number],
-                   start = [start position],
-                   end = [end position]))
+  output$locuszoom<-renderLocusZoomPlot({
+    LocusZoomPlot(list(assoc_url = [data source URL],
+                       assoc_analysis = [name of a database file],
+                       assoc_id_field = [name of id_field],
+                       gene_url = [data source URL],
+                       gene_source = [value of gene_source],
+                       chr = [chromosome number],
+                       start = [start position],
+                       end = [end position]))
+  })
 ```
 Change version tag to whatever tagged release you want to use, or leave it off to pull the most current version. Check out the [releases](https://github.com/jjsayleraxio/AxioLocusZoom/releases) for more info.
 
