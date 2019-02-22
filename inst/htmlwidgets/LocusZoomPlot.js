@@ -27,7 +27,7 @@ HTMLWidgets.widget({
             plot.panels[panel.id].addBasicLoader();
         });
         
-        window.plot = LocusZoom.populate("#plot", data_sources, layout);
+        window.plot = LocusZoom.populate(el, data_sources, layout);
 
       },
 
