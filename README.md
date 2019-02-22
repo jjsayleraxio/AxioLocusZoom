@@ -30,7 +30,7 @@ LocusZoomPlot(list(assoc_url = [data source URL],
                    start = [start position],
                    end = [end position]))
 ```
-Change @v0.1.0-alpha to whatever tagged release you want to use, or leave it off to pull the most current version. Check out the [releases](https://github.com/jjsayleraxio/AxioLocusZoom/releases) for more info.
+Change version tag to whatever tagged release you want to use, or leave it off to pull the most current version. Check out the [releases](https://github.com/jjsayleraxio/AxioLocusZoom/releases) for more info.
 
 <hr>
 
