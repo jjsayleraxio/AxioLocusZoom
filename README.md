@@ -16,9 +16,20 @@ library(devtools)
 ```
 3. Install using `install_github()` command
 ```R
-devtools::install_github("jjsayleraxio/AxioLocusZoom@v0.1.0-alpha")
+devtools::install_github("jjsayleraxio/AxioLocusZoom@v0.1.1-alpha")
 ```
 
+4. Example of how to run code:
+```R
+LocusZoomPlot(list(assoc_url = [data source URL],
+                   assoc_analysis = [name of a database file],
+                   assoc_id_field = [name of id_field],
+                   gene_url = [data source URL],
+                   gene_source = [value of gene_source],
+                   chr = [chromosome number],
+                   start = [start position],
+                   end = [end position]))
+```
 Change @v0.1.0-alpha to whatever tagged release you want to use, or leave it off to pull the most current version. Check out the [releases](https://github.com/jjsayleraxio/AxioLocusZoom/releases) for more info.
 
 <hr>
